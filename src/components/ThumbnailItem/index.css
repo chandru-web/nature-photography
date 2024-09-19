@@ -1,0 +1,20 @@
+.thumbnail-list img:hover {
+  transform: scale(1.1);
+}
+.active {
+  opacity: 0.5s;
+}
+.thumbnail-image {
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+}
+.list-item {
+  list-style-type: none;
+}
+
+.thumbnail-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+}

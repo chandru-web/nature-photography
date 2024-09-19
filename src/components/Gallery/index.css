@@ -1,0 +1,53 @@
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-image {
+  width: 90%;
+  max-height: 60%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.nature-photography-heading {
+  color: #000000;
+  font-size: 26px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.description {
+  font-weight: 200;
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.thumbnail-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap; /* Allows thumbnails to wrap in smaller screens */
+}
+
+.thumbnail-list img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.thumbnail-list img:hover {
+  transform: scale(1.1);
+}
